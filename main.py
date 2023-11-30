@@ -12,6 +12,7 @@ def main():
     final_amount = convert(actual_currency, wished_currency, amount)
     
     print(f"{amount} {actual_symbol} ----> {final_amount:.2f} {wished_symbol}")
+    save_conversion_history(actual_currency, wished_currency, amount, final_amount)
 
 if __name__ == '__main__':
     main()
