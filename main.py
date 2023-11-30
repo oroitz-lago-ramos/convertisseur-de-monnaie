@@ -13,4 +13,5 @@ def main():
     
     print(f"{amount} {actual_symbol} ----> {final_amount:.2f} {wished_symbol}")
 
-main()
+if __name__ == '__main__':
+    main()
